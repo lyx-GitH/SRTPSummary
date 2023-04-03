@@ -8,12 +8,12 @@ This research is completed by me(Yuxuan Liu) and another group member. It focues
 
 This research is done in the following steps
 
-1. Read papers in the relevant field, including the famous paper, [Attention Is All You Need]([ https://doi.org/10.48550/arXiv.1706.03762](https://doi.org/10.48550/arXiv.1706.03762)).
+1. Read papers in the relevant field, including the famous paper, [Attention Is All You Need](https://doi.org/10.48550/arXiv.1706.03762).
 2. Understand the mathematical principles behind the model’s operation.
 3. Train the Detection Transformer (DETR) model provided in the paper and apply the trained model to test images.
 4. Further understand possible directions for improving the model.
 
-### Research results 
+### 3. Research results 
 
 The trained DETR model performs well in the test images, Here are two of them:
 
@@ -28,6 +28,6 @@ It can be observed that both people and things on the desk are correctly detecte
 
 In Fig 2, it can be observed that all basketball players, including the person behind the team in the front, is successfully detected.
 
-It comes out that the model performs well in complex scenarios, but it lacks the ability to detect small objects, which is mentioned in the original paper.
+It comes out that the model performs well in complicated scenarios, but it lacks the ability to detect small objects, which is mentioned in the original paper.
 
 Further improvements are also researched, like the [SOF-DETR]( https://dx.doi.org/10.36227/techrxiv.16921000.v2) model.
